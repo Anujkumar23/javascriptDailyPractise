@@ -28,7 +28,7 @@ Also we cannot initialize it in another line unlike happen in var and let.
  In function scope the value canbe access only in function we cannot access value outside function block.
 
  Sometime we write our constant value in Uppercase.There are some value that are difficult to remember and their value never gonna be change in future so uppercase constant are used to store hard coded value.
- We can also write the constant in uppercase when we know the value and write it in the code
+ We can also write the constant in uppercase when we know the value and write it in the code.
 
 
 */

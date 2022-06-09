@@ -11,3 +11,8 @@ document.write(typeof value);
 value = String(value);
 document.write(typeof value)
 
+value= String(123)
+document.write (typeof value);
+
+
+

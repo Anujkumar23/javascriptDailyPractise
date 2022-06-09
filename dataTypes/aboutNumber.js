@@ -9,4 +9,4 @@ console.log(2/0);
 
 console.log("hello"/2)
 
-console.log("23"/2)
+console.log("23"/2) //why

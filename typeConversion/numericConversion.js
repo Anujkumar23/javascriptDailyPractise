@@ -17,3 +17,20 @@ console.log( Number("   123   ") );
 console.log( Number("123z") );      
 console.log( Number(true) );       
 console.log( Number(false) );    
+
+
+str= "3.14"
+console.log(typeof str);
+
+str= parseFloat(str)
+console.log(typeof str)
+
+str= "1346"
+console.log(typeof str)
+
+str= parseInt(str)
+console.log(typeof str);
+
+let num= "5"
+num=+num;
+console.log(num)
