@@ -30,5 +30,5 @@
 
 //   #####BOOLEAN CONVERSION###
 // In Boolean conversion string and number is changed to boolean .like true and false 
-// if the value is empty,0 empty String, Null,undefined,then value is false.
-// and other value are true like ,"0" 1,"hello"," "
+// If the value is empty,0 empty String, Null,undefined,then value is false.
+// And other value are true like ,"0" 1,"hello"," "
