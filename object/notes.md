@@ -28,3 +28,10 @@ We can also check the property with a special operator "in"
 
 # For..in loop
 In Object if we want to access all keys of object ,their exist a special form of loop for..in
+
+
+# method
+If we declare a function expression as property of object that is called the method of object.
+this refer to the current object.
+if we use this in any function without calling an object  it will give us undefined.
+If we call a function without an object it will give us undefined in strict mode and window object in non strict mode.

@@ -10,6 +10,7 @@ If we call function expression before the execution reaches it, it will give us 
 
 
 # Callback Function
+A function as as argument in another function is known as callback function .We can call back this function lately 
 
 # Arrow Function
 Arrow function is another way of creating a function.its syntax is shorter and better then function Expression.
