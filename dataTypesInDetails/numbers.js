@@ -45,7 +45,7 @@ console.log(Math.ceil(3.1));//It round up the value and become 4
 console.log(Math.round(3.5));//It round the value to the nearest integer so3.5 become 4.
 console.log(Math.trunc(2.33));//It remove the value after the decimal point but without rounding.
 
-// Thare are two way if we want value after the decimal 
+// There are two way if we want value after the decimal 
 
 //1. If we want 3 digit after decimal  point we can multiply the number with 1000 and call the round function and then divide it again with the hundred 
 num= 1.23456;
