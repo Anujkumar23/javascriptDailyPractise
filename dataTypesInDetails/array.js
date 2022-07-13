@@ -49,7 +49,7 @@ We can explicitly calculate the last element index and access it fruits[fruits.l
 
 /* To find the  element from last index we also have  a shorter syntax  arr.at()
 It exactly same as arr[i]
-For negative value of i it start count from the enf of the array.
+For negative value of i it start count from the end of the array.
 */
 
 fruits= ["Apple","Orange","Plum"];
@@ -59,7 +59,7 @@ console.log(fruits.at(0));
 
 // Methods pop/push ,shift/unshift
 /*
-push append/add an elememt to theend of an array.
+push append/add an elememt to the end of an array.
 pop remove an element from the end of an array
 unshift add/append an element to the beginning of the array
 shift remove an element from the beginning of the array.
@@ -198,7 +198,7 @@ console.log("1,2"+1);
 // Don't compare arrays with==
 /*Array should not compare with == operator
 1. Two object are equal == only if they are reference to same object.
-If one of the argument of == is object and other one is premitive ,then the object get converted to primitive 
+If one of the argument of == is object and other one is primitive ,then the object get converted to primitive 
 null== undefined and nothing else
 If we compare array with == ,they are never the same  unless the variable  reference to same object.
 
@@ -207,7 +207,7 @@ console.log([]==[])//false
 console.log([0]==[0])//false
 // they are different array so they are not refering to same  array.
 console.log(0==[]);//true
-// console.log("0"=[])//false
+console.log("0"=[])//false
 // When we compare an object to a primitive it convert to the primitive  for purpose of comparison and become empty string.
 // Dont compare array with == , use for..of loop to 
 
