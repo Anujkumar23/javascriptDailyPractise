@@ -7,7 +7,7 @@ The if statement evaluates the expression in paranthesis  and convert the result
 A number 0, empty string "" , null,undefined , NaN all become false.
 other value become true
 
-The if statemt also contain a else clause. It execute when when our if condition is false.
+The if statement also contain a else clause. It execute when our if condition is false.
 
 Now if we have varient of condition we use elseif we can use elseif as many time but it should be between if and else.
 

@@ -56,7 +56,7 @@ when we do typeof null it return us object
 
 The undefined  is also a special type which means value is not assigned.when we declared a variable but not assigned value to that variable it return undefined.
 the type of undefined is undefined.
-when we conpare null and undefined with == its gives us true because == compare value by type conversion both null and undefined return false.so that it consider it equal
+when we compare null and undefined with == its gives us true because == compare value by type conversion both null and undefined return false.so that it consider it equal
 but it is not possible in === .
 
 ###### OBJECTS#####

@@ -34,7 +34,7 @@
 // Constructor do not have return statement .The task of constructor is to write all stuff in this ,and it become the result.
 // But if there is a return statement
 // 1.if return is called with an object ,then object is return instead of this.
-// 2. if retrn is called with a primitive it's ignored.
+// 2. if return is called with a primitive it's ignored.
 
 // function BigUSer(){
 //     this.name= "john";

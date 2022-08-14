@@ -25,7 +25,7 @@ console.log(map.get("1"))
 console.log(map.get(1))
 console.log(map.get(true))
 console.log(map.size);
-// So keys are not converd to strings in map, unlike object can store any of keys.
+// So keys are not converted to strings in map, unlike object ,can store any of keys.
 
 // map[key] is not the right way to use map
 // We can use map[key] but it will treating map as a javascript object.
@@ -129,7 +129,7 @@ obj= Object.fromEntries(map);
 // because it expect an iterable object as the argument not necessarily an array. map.entries() do the same.
 
 // Set
-// A set is a special type collection that set value with keys and each value occur only once.
+// A set is a special type collection that set value without keys and each value occur only once.
 // its main method:
 // new Set(iterable)- create the set and if an iterable object is provided copies value from it into the set.
 // set.add(value) -Add a value and return the set.

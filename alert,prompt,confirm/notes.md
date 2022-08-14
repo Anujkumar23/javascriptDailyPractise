@@ -10,7 +10,7 @@
 // #####PROMPT####
 
 // Prompt is also a popup box which show some message ,we use prompt when we want to take input from user.prompt takes two argument title and second one is default.
-// It user press ok input result will appear and if press cancel return Ull
+// It user press ok input result will appear and if press cancel return null
 
 // example:
 //Let a user want to play a game on server a prompt box appear on the screen ask for the name and with a default value "Guest"

@@ -8,10 +8,10 @@ The do.. While
 
 
 ### While loop ###
-In  while loop if the condition is true   the code from body is executed 
+In  while loop if the condition is true   the code from body is executed.
 
-A single execution of loop is called itaration
- I while loop Conditon not just take comparison ,it can also take  expression or variable as a  loop condition.
+A single execution of loop is called itaration.
+ In while loop Conditon not just take comparison ,it can also take  expression or variable as a  loop condition.
 
  Condition is evaluated and converted to boolean value.
 
@@ -19,10 +19,10 @@ A single execution of loop is called itaration
 
 
  #### do ....while loop ####
- In do while the loop first execute the code then check the condiition if the condition is truthy then   again itrate.
+ In do while the loop first execute the code then check the condition if the condition is truthy then  again itrate.
  If condition is false it stops from execution.
 
- We use this loop when we want the code of the body to execute atleast once if  the condition is false for the first time 
+ We use this loop when we want the code of the body to execute atleast once if  the condition is false for the first time.
 
 
  ### for loop ####
@@ -48,7 +48,7 @@ Any part of for loop can be skipped
 
 
 #### breaking the loop ####
-The loops exits when the condition become false but we have a keyword through which we can force the exit. 
+The loops stops when the condition become false but we have a keyword through which we can force the exit. 
  The break keyword stop the whole execution of the loop 
 
 #### continue ####

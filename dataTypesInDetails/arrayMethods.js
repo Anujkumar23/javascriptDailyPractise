@@ -3,7 +3,7 @@
 // To Add/Remove items
 /* arr.push(...)- adds item to  the end.
 arr.pop()-it extract item to the  end
-arr.shift()-extract an item from the beginni.ng .
+arr.shift()-extract an item from the beginning .
 arr.unshift(...items)- adds items to the beginning
 
 */
@@ -238,7 +238,7 @@ console.log(countries.sort((a,b)=>a.localeCompare(b)));
 
 //  split and join
 // str.split(delim) method split the string into the array by the given delimiter.
-// The split method  has optional secong numeric argument -a limit on the array length.
+// The split method  has optional second numeric argument -a limit on the array length.
 
 let names="Bilbo,Gandalf,Nazgul";
  arr=names.split(",");
@@ -293,7 +293,7 @@ console.log(arr.reduceRight((sum,current)=>sum+current));
 
 // Array.isArray
 // Array are based on object.
-//  It check if an abject is an array return true, otherwise false.
+//  It check if an object is an array return true, otherwise false.
 
  fruits=["Banana","Orange","Apple","Mango"];
  result=Array.isArray(fruits);

@@ -23,8 +23,8 @@ OR finds the first truthy value
 Now if we have multiple value in OR operator
 OR operator evaluate value from left to right.
 
-First it changes all operands to boolean then ig the value is true return the original value of operand.
-if all the value are false retrn the last value.
+First it changes all operands to boolean then if the value is true return the original value of operand.
+if all the value are false return the last value.
 
 
 ####SHORT-CIRCUIT EVALUATION####
@@ -32,7 +32,7 @@ It is a another feature of OR operator.
  OR || operator process its argument until it find first true value .
 
 
- people use this commanf=d when the condition on left part is falsy.
+ people use this command when the condition on left part is falsy.
 
 
 
@@ -60,7 +60,7 @@ if it find all value true it will rerurn the last value.
 
 ### !NOT OPERATOR ####
 The NOT operator is represented by exclamation sign.
-It convert the  operands to boolean value true or fasle.
+It convert the  operands to boolean value true or false.
 
 it return the inverse value.
 

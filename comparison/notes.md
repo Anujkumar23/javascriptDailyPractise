@@ -17,7 +17,7 @@ When we compare two value the comparison result always comes in boolean form tru
 
   Uppercase letter are different from the lowercase letter 
   
-  lowercarse letter has  greater indec then the uppercase letter.
+  lowercarse letter has  greater index then the uppercase letter.
 
 
   ####COMPARISON OF DIFFERENT TYPES####

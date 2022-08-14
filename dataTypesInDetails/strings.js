@@ -6,7 +6,7 @@
 2.Double Quote
 3. Backticks
 single and double quotes are basically same . But in Backticks we can add variable and expression into string ,by wrapping it in ${}.
-With the backticks we can write multiple lines.But it is not possible in singke and double quotes. 
+With the backticks we can write multiple lines.But it is not possible in single and double quotes. 
 */
 
 let single = "single -quoted"
@@ -31,7 +31,7 @@ console.log(guestList);
 /*We can create multiple line strings with single and double quotes by using "newline character" \n
 All Special character start with \ called as escape character.
 We use this escape character if we want to add quote in our sentence.
-IF we need to show a \ in our string we need to use double \\.
+If we need to show a \ in our string we need to use double \\.
 
 */
 
@@ -62,7 +62,7 @@ console.log(strr.length);
 // Accessing Character
 /*We use square bracket [pos]to access a character postion or call the method str.charAt(pos).
 The square Bracket are a moodern way to getting a character , and charAt is the older method.
-The diff b/w [] and charAt is them [] method return undefined if no character found and charAt gives an empty string.
+The diff b/w [] and charAt is that [] method return undefined if no character found and charAt gives an empty string.
 
 */
 
@@ -72,7 +72,7 @@ console.log(str[4]);
 console.log(str.charAt(3));
 console.log(str.charAt(5));
 
-// We can also itrate overr the string using for..of
+// We can also itrate over the string using for..of
 for (let char of str){
 console.log(char);
 }
@@ -190,7 +190,7 @@ console.log(str.slice(-4,-1))
 // 2.str.substring(start,end)
 /*
 It return the part of the string b/w start and the end.
-It is same as sliice but it allow the start to be greater than end.
+It is same as slice but it allow the start to be greater than end.
 Negative argument are not supported in str.substring.
 */
 str= "stringify"
@@ -201,8 +201,8 @@ console.log(str.substring(6,2))
 /*
 It return the part of string from start with the given length.
 Here it take second argument as length unlike substring and slice.
-It can  take first argument as negative so count strat fron string end.
-THe length of the substr is start from the start 
+It can  take first argument as negative so count start fron string end.
+The length of the substr is start from the start 
  */
 string= "stringify"
 console.log(string.substr(2,4));

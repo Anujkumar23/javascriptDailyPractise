@@ -11,9 +11,9 @@ We can say that it is better way to write ternary operator.
 We can also use a sequence of ?? to select value that is true or not null/undefined.
 
 #### COMPARISON WITH OR ####
-We can use OR || operator in the same way as ?? but the diffenence is that OR operator return the first truthy value and ?? operator retrn the first defined 
+We can use OR || operator in the same way as ?? but the diffenence is that OR operator return the first truthy value and ?? operator return the first defined 
 
-OR treated the false,0 empty string,null and undefined in the same way but it is diierent in ?? operator.
+OR treated the false,0 empty string,null and undefined in the same way but it is different in ?? operator.
 
 ##### PRECEDENCE ######
 
